@@ -1,0 +1,101 @@
+* { 
+	box-sizing: border-box;
+	font-family: Inter var,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+}
+html, body {
+	min-height: 100%;
+	background: #121212;
+	color: #fff;
+	margin-left: 5%;
+
+
+}
+	/* sets the body height of the browser, so that backgrounds and div heights work correctly. Color and background will almost certainly be altered; they are just placeholders */
+.main{
+	width: 1000px;
+    min-height:300px;
+    margin:0 auto;
+
+}
+body {
+	font-size: 1.4rem;
+	text-rendering: optimizeLegibility;
+}
+	/* sets the base font size for the document; turns on kerning pairs and ligatures */
+	
+body, ul, ol, dl {
+	margin: 0;
+}
+article, aside, audio, 
+footer, header, nav, section, video {
+	display: block; 
+	}
+	
+	/* ensures that older browsers will display HTML5 elements correctly */
+	
+h1 {
+	font-size: 1.4rem;
+}
+	/* begins to set up font sizes relative to base rem – h1 has been used as an example */
+	
+p { 
+	-ms-word-break: break-all;
+	word-break: break-all;
+	word-break: break-word;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+} 
+a { 
+	color:#9E9EFF
+	}
+	/* sets hyphenation by default on paragraphs */
+	
+
+a:visited {
+	color:#9E9EFF;
+}
+a:hover, a:active {
+	color: inherit;
+  }
+textarea { 
+	resize: vertical;
+}
+
+.right { 
+	float: right;
+	margin-left: 2rem;
+	clear: right;
+}
+.left { 
+	float: left;
+	margin-right: 2rem;
+	clear: left;
+}
+	/* allows a quick shortcut for floating elements left and right while avoiding the “float quirk” problem */
+	
+sub, sup { 
+	line-height: 0;
+}
+
+	
+	h1 {
+		font-size: 2rem;
+	}
+	
+	h2 {
+		font-size: 1.5rem;
+	}
+	
+	h3 {
+		font-size: 1.2rem;
+	}
+	
+	h4 {
+		font-size: 1rem;
+	}
+	footer {
+		margin-top: 5%;
+	  }
